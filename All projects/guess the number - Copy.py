@@ -4,6 +4,7 @@
 
 # imports
 import random
+import time
 
 # functions
 def get_num_in_range(rmin,rmax):
@@ -122,6 +123,7 @@ def option():
 
 def game(rmin,rmax,maxTrys):
     print("Welcome to the guess my number game")
+    time.sleep(4)
     randnum = random.randint(rmin,rmax)
 
 
